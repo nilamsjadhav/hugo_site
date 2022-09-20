@@ -2,3 +2,4 @@ baseURL = 'https://nilamsjadhav.github.io/hugo_site/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
+canonifyURLs = true
