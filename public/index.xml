@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://nilamsjadhav.github.io/hugo_site/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Sep 2022 20:42:11 +0530</lastBuildDate><atom:link href="https://nilamsjadhav.github.io/hugo_site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beck Design Rules</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/beck-design-rules/</link>
+      <pubDate>Mon, 19 Sep 2022 20:42:11 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/beck-design-rules/</guid>
+      <description>Kent Beck created four rules of software design. The rules are in priority order.
+Passes the tests
+The main aim while developing software is to make it work as expected and tests ensure that whether software is working as expected or not.
+Reveals intention
+This rule says that code should easy to understand and readable. The way to make it readable and understandable is to reveal your intention in code so that readers will understand what your purpose was when writing it.</description>
+    </item>
+    
+    <item>
+      <title>Pugjs</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/pugjs/</link>
+      <pubDate>Tue, 13 Sep 2022 21:08:49 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/pugjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Storage</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/local-storage/</link>
+      <pubDate>Mon, 12 Sep 2022 21:04:51 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/local-storage/</guid>
+      <description>Local storage is way of storing data on browser. Local storage is similar to session storage except there is no expiry time for local storage. Local storage is specific to each protocol of the document.
+For instance, http://www.demo.com will return different localStorage object than https://www.demo.com</description>
+    </item>
+    
+    <item>
+      <title>IME Museum</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/ime-museum/</link>
+      <pubDate>Sun, 11 Sep 2022 22:25:26 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/ime-museum/</guid>
+      <description>There is various type of music genre. It is very hard to gather information of each genre. As there is immense variety in Indian culture. Each religion has their own way of celebrating birth, marriage, harvesting of crops and various rituals.
+Indian music experience museum has huge collection of songs and history of each genre of music. IME segregated songs in different categories. Museum has huge collection of old instruments. It also includes some instruments of famous vocalists.</description>
+    </item>
+    
+    <item>
+      <title>Session Storage</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/session-storage/</link>
+      <pubDate>Sat, 10 Sep 2022 20:56:08 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/session-storage/</guid>
+      <description>Session storage is way of storing data on browser. Session storage is created when user open new tab or window in browser. It is expiry when tab or browser window is closed. This storage survive on refresh or reload.
+Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab. That page session is valid only for that particular tab.</description>
+    </item>
+    
+    <item>
+      <title>ASCII and Unicode</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/ascii-and-unicode/</link>
+      <pubDate>Fri, 09 Sep 2022 21:27:25 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/ascii-and-unicode/</guid>
+      <description>ASCII and Unicode are encoding standard. Unicode is the universal character encoding used to process and facilitate the interchange of text data in any language while ASCII is used for the representation of text such as symbols, letters, digits, etc. in computers.
+ASCII includes uppercase letter, lowercase letter, digit(0-9) and symbols like punctuation mark. ASCII supports 128 characters. ASCII character uses 7 bit to represent a character.
+Unicode includes letters of english, greek, arabic, mathematical symbols and wide range of characters.</description>
+    </item>
+    
+    <item>
+      <title>Bindusara</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/bindusara/</link>
+      <pubDate>Wed, 07 Sep 2022 21:25:46 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/bindusara/</guid>
+      <description>Bindusara is the second Mauryan emperor of India. He is son of the great king Chandragupta maurya and father of the king Ashoka. Some sources provided strong evidence about this. But some people claim that he is son of of the king Shushunaga.
+Most of Jain legends wrote about Chandragupta maurya and most of Buddhist legends wrote about Ashoka. There is not much documentation available about Bindusara.
+Bindusara consolidated Mauryan empire after death of his father.</description>
+    </item>
+    
+    <item>
+      <title>Chandragupta Maurya the Great King</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/chandragupta-maurya-the-great-king/</link>
+      <pubDate>Tue, 06 Sep 2022 20:50:30 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/chandragupta-maurya-the-great-king/</guid>
+      <description>Chandragupta maurya is the great king who expanded his kingdom based in Magadha from modern Bengal to Afghanistan. After death of Alexander, his general Seleucus I Nicator start acquiring north-west Indian subcontinent.
+Chandragupta maurya defeated him.</description>
+    </item>
+    
+    <item>
+      <title>The Journey of Chandragupta maurya from a child to the emperor</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/chandragupta-maurya/</link>
+      <pubDate>Mon, 05 Sep 2022 20:36:56 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/chandragupta-maurya/</guid>
+      <description>Chandragupta maurya was born into a poor family. After death of his father his maternal uncle left him with a cowherd who brought him up as his son. Then that cowherd sold him to a hunter to tend cattle.
+One day when chanakya passing through village he saw chandragupta playing. He observed him and he impressed with his act. Chanakya was in search of person who will help him to take revenge from Dhanananda(Ruler of Nanda empire) Chanakya purchased him from cowherd and carried him to Taxila.</description>
+    </item>
+    
+    <item>
+      <title>Establishment of Maurya Empire</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/establishment-of-maurya-empire/</link>
+      <pubDate>Fri, 02 Sep 2022 20:24:27 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/establishment-of-maurya-empire/</guid>
+      <description>This is period when The great king Purushottam no more in world. After death of the great king Purushottam, Selecus started acquiring some parts of india. Selecus was a Macedonian Greek general who was an officer and successor of Alexander the Great. At that period there was need of person who can stop this and protect our country. Chanakya was a person who recognized that need.
+Chanakya was an ancient Indian polymath who was active as a teacher, author, strategist, philosopher, economist, jurist and royal advisor.</description>
+    </item>
+    
+    <item>
+      <title>First Blog</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/first-blog/</link>
+      <pubDate>Thu, 01 Sep 2022 19:03:40 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/first-blog/</guid>
+      <description> This site includes history and technology related blogs. </description>
+    </item>
+    
+  </channel>
+</rss>
