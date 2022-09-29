@@ -8,7 +8,7 @@ image: "beckDesignRules.png"
 
 Kent Beck created four rules of software design. The rules are in priority order.
 
-![Beck design rules](/images/beckDesignRules.png)
+![Beck design rules](/hugo_site/images/beckDesignRules.png)
 - Passes the tests
 
     The main aim while developing software is to make it work as expected and tests ensure that whether software is working as expected or not.
