@@ -1,12 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on My New Hugo Site</title>
+    <title>Blogs on Nilam&#39;s blog</title>
     <link>https://nilamsjadhav.github.io/hugo_site/blog/</link>
-    <description>Recent content in Blogs on My New Hugo Site</description>
+    <description>Recent content in Blogs on Nilam&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Sep 2022 20:42:11 +0530</lastBuildDate><atom:link href="https://nilamsjadhav.github.io/hugo_site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 23:18:14 +0530</lastBuildDate><atom:link href="https://nilamsjadhav.github.io/hugo_site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micro Frontend Architecture</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/micro-frontend-architecture/</link>
+      <pubDate>Fri, 14 Oct 2022 23:18:14 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/micro-frontend-architecture/</guid>
+      <description>hello </description>
+    </item>
+    
+    <item>
+      <title>Providing Options in Request (Fetch API)</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/providing-options-in-request/</link>
+      <pubDate>Thu, 13 Oct 2022 21:46:25 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/providing-options-in-request/</guid>
+      <description> fetch() method takes init object as second parameter that allow us to control a number of different settings.
+We can specify following options in request.
+method headers body mode credentials omit same-origin include cache referrer referrerPolicy integrity keepalive signal For example,
+fetch(&amp;#39;https://pokeapi.co/api/v2/pokemon/1&amp;#39;, { method: &amp;#39;GET&amp;#39;, headers: { &amp;#39;Content-Type&amp;#39;: &amp;#39;application/json&amp;#39; }, mode: &amp;#39;no-cors&amp;#39;, cache: &amp;#39;no-cache&amp;#39;, credentials: &amp;#39;same-origin&amp;#39; }) .then(data =&amp;gt; data.json()) .then(pokemons =&amp;gt; console.log(pokemons)); </description>
+    </item>
+    
+    <item>
+      <title>Fetch API</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/fetch-api/</link>
+      <pubDate>Sun, 09 Oct 2022 21:53:46 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/fetch-api/</guid>
+      <description>The Fetch API provides a way to fetch resources (including across the network). For making the request and fetching the resources fetch API provides fetch() method.
+This method is implemented in multiple interfaces. This makes it available in pretty much any context you might want to fetch resources in.
+The fetch() method takes one mandatory argument that is path to the resource want to fetch.
+fetch(&amp;#34;https://pokeapi.co/api/v2/pokemon/1&amp;#34;) .then((res) =&amp;gt; res.json()) .</description>
+    </item>
+    
+    <item>
+      <title>Using Conditionals in Pug</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/using-conditionals-in-pug/</link>
+      <pubDate>Thu, 29 Sep 2022 22:54:16 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/using-conditionals-in-pug/</guid>
+      <description>Pug provides if and unless conditionals
+if - var userExist = true if userExist p.message welcome Output :-
+&amp;lt;p class=&amp;#34;message&amp;#34;&amp;gt;welcome &amp;lt;/p&amp;gt; - var userExist = true if userExist p.message welcome else p.message Invalid user Output :-
+&amp;lt;p class=&amp;#34;message&amp;#34;&amp;gt;welcome &amp;lt;/p&amp;gt; unless unless works like a negated if. For instance, example using unless and if given below are equivalent.
+Using unless - var age = 19 unless age &amp;lt; 18 p.notification Eligible for vote Output :-</description>
+    </item>
+    
+    <item>
+      <title>Reactjs</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/reactjs/</link>
+      <pubDate>Wed, 28 Sep 2022 22:56:37 +0530</pubDate>
+      
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/reactjs/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Beck Design Rules</title>
       <link>https://nilamsjadhav.github.io/hugo_site/blog/beck-design-rules/</link>
@@ -21,12 +76,15 @@ This rule says that code should easy to understand and readable. The way to make
     </item>
     
     <item>
-      <title>Pugjs</title>
-      <link>https://nilamsjadhav.github.io/hugo_site/blog/pugjs/</link>
+      <title>Pug</title>
+      <link>https://nilamsjadhav.github.io/hugo_site/blog/pug/</link>
       <pubDate>Tue, 13 Sep 2022 21:08:49 +0530</pubDate>
       
-      <guid>https://nilamsjadhav.github.io/hugo_site/blog/pugjs/</guid>
-      <description></description>
+      <guid>https://nilamsjadhav.github.io/hugo_site/blog/pug/</guid>
+      <description>Pug is HTML templating engine. Pug compiler convert pug code into HTML code, that browser can understand.
+Pug has powerful features like conditions, loops, includes, mixins using which we can render HTML code based on user input or reference data. Pug also support JavaScript natively, hence using JavaScript expressions, we can format HTML code.
+Installation Pug can be installed using npm.
+npm install pug Overview The rendering process of Pug is pretty straightforward.</description>
     </item>
     
     <item>

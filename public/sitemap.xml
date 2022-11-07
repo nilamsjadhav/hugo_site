@@ -2,16 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nilamsjadhav.github.io/hugo_site/blog/</loc>
+    <lastmod>2022-10-14T23:18:14+05:30</lastmod>
+  </url><url>
+    <loc>https://nilamsjadhav.github.io/hugo_site/blog/micro-frontend-architecture/</loc>
+    <lastmod>2022-10-14T23:18:14+05:30</lastmod>
+  </url><url>
+    <loc>https://nilamsjadhav.github.io/hugo_site/</loc>
+    <lastmod>2022-10-14T23:18:14+05:30</lastmod>
+  </url><url>
+    <loc>https://nilamsjadhav.github.io/hugo_site/blog/providing-options-in-request/</loc>
+    <lastmod>2022-10-13T21:46:25+05:30</lastmod>
+  </url><url>
+    <loc>https://nilamsjadhav.github.io/hugo_site/blog/fetch-api/</loc>
+    <lastmod>2022-10-09T21:53:46+05:30</lastmod>
+  </url><url>
+    <loc>https://nilamsjadhav.github.io/hugo_site/blog/using-conditionals-in-pug/</loc>
+    <lastmod>2022-09-29T22:54:16+05:30</lastmod>
+  </url><url>
+    <loc>https://nilamsjadhav.github.io/hugo_site/blog/reactjs/</loc>
+    <lastmod>2022-09-28T22:56:37+05:30</lastmod>
+  </url><url>
     <loc>https://nilamsjadhav.github.io/hugo_site/blog/beck-design-rules/</loc>
     <lastmod>2022-09-19T20:42:11+05:30</lastmod>
   </url><url>
-    <loc>https://nilamsjadhav.github.io/hugo_site/blog/</loc>
-    <lastmod>2022-09-19T20:42:11+05:30</lastmod>
-  </url><url>
-    <loc>https://nilamsjadhav.github.io/hugo_site/</loc>
-    <lastmod>2022-09-19T20:42:11+05:30</lastmod>
-  </url><url>
-    <loc>https://nilamsjadhav.github.io/hugo_site/blog/pugjs/</loc>
+    <loc>https://nilamsjadhav.github.io/hugo_site/blog/pug/</loc>
     <lastmod>2022-09-13T21:08:49+05:30</lastmod>
   </url><url>
     <loc>https://nilamsjadhav.github.io/hugo_site/blog/local-storage/</loc>

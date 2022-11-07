@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Using Conditionals in Pug | Nilam&#39;s blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Pug provides if and unless conditionals
+if - var userExist = true if userExist p.message welcome Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; - var userExist = true if userExist p.message welcome else p.message Invalid user Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; unless unless works like a negated if. For instance, example using unless and if given below are equivalent.
+Using unless - var age = 19 unless age &lt; 18 p.notification Eligible for vote Output :-">
+    <meta name="generator" content="Hugo 0.102.2" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/hugo_site/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Using Conditionals in Pug" />
+<meta property="og:description" content="Pug provides if and unless conditionals
+if - var userExist = true if userExist p.message welcome Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; - var userExist = true if userExist p.message welcome else p.message Invalid user Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; unless unless works like a negated if. For instance, example using unless and if given below are equivalent.
+Using unless - var age = 19 unless age &lt; 18 p.notification Eligible for vote Output :-" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nilamsjadhav.github.io/hugo_site/blog/using-conditionals-in-pug/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-09-29T22:54:16+05:30" />
+<meta property="article:modified_time" content="2022-09-29T22:54:16+05:30" />
+
+<meta itemprop="name" content="Using Conditionals in Pug">
+<meta itemprop="description" content="Pug provides if and unless conditionals
+if - var userExist = true if userExist p.message welcome Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; - var userExist = true if userExist p.message welcome else p.message Invalid user Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; unless unless works like a negated if. For instance, example using unless and if given below are equivalent.
+Using unless - var age = 19 unless age &lt; 18 p.notification Eligible for vote Output :-"><meta itemprop="datePublished" content="2022-09-29T22:54:16+05:30" />
+<meta itemprop="dateModified" content="2022-09-29T22:54:16+05:30" />
+<meta itemprop="wordCount" content="99">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Conditionals in Pug"/>
+<meta name="twitter:description" content="Pug provides if and unless conditionals
+if - var userExist = true if userExist p.message welcome Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; - var userExist = true if userExist p.message welcome else p.message Invalid user Output :-
+&lt;p class=&#34;message&#34;&gt;welcome &lt;/p&gt; unless unless works like a negated if. For instance, example using unless and if given below are equivalent.
+Using unless - var age = 19 unless age &lt; 18 p.notification Eligible for vote Output :-"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/hugo_site/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Nilam&#39;s blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        BLOGS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Using Conditionals in Pug</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-09-29T22:54:16+05:30">September 29, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Pug provides if and unless conditionals</p>
+<h3 id="if">if</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JS" data-lang="JS"><span style="display:flex;"><span><span style="color:#f92672">-</span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">userExist</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">userExist</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">message</span> <span style="color:#a6e22e">welcome</span> 
+</span></span></code></pre></div><p>Output :-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;message&#34;</span>&gt;welcome &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JS" data-lang="JS"><span style="display:flex;"><span><span style="color:#f92672">-</span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">userExist</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">userExist</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">message</span> <span style="color:#a6e22e">welcome</span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span> 
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">message</span> <span style="color:#a6e22e">Invalid</span> <span style="color:#a6e22e">user</span>
+</span></span></code></pre></div><p>Output :-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;message&#34;</span>&gt;welcome &lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><h3 id="unless">unless</h3>
+<p><em>unless</em> works like a negated if. For instance, example using unless and if given below are equivalent.</p>
+<h4 id="using-unless">Using unless</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JS" data-lang="JS"><span style="display:flex;"><span><span style="color:#f92672">-</span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">19</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">unless</span> <span style="color:#a6e22e">age</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">18</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">notification</span> <span style="color:#a6e22e">Eligible</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">vote</span>
+</span></span></code></pre></div><p>Output :-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;notification&#34;</span>&gt;Eligible for vote&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><h4 id="using-if">Using if</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JS" data-lang="JS"><span style="display:flex;"><span><span style="color:#f92672">-</span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">19</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">age</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">18</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">notification</span> <span style="color:#a6e22e">Eligible</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">vote</span>
+</span></span></code></pre></div><p>Output :-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;notification&#34;</span>&gt;Eligible for vote&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://nilamsjadhav.github.io/hugo_site/" >
+    &copy;  Nilam's blog 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

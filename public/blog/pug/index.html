@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Pug | Nilam&#39;s blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Pug is HTML templating engine. Pug compiler convert pug code into HTML code, that browser can understand.
+Pug has powerful features like conditions, loops, includes, mixins using which we can render HTML code based on user input or reference data. Pug also support JavaScript natively, hence using JavaScript expressions, we can format HTML code.
+Installation Pug can be installed using npm.
+npm install pug Overview The rendering process of Pug is pretty straightforward.">
+    <meta name="generator" content="Hugo 0.102.2" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/hugo_site/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Pug" />
+<meta property="og:description" content="Pug is HTML templating engine. Pug compiler convert pug code into HTML code, that browser can understand.
+Pug has powerful features like conditions, loops, includes, mixins using which we can render HTML code based on user input or reference data. Pug also support JavaScript natively, hence using JavaScript expressions, we can format HTML code.
+Installation Pug can be installed using npm.
+npm install pug Overview The rendering process of Pug is pretty straightforward." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nilamsjadhav.github.io/hugo_site/blog/pug/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-09-13T21:08:49+05:30" />
+<meta property="article:modified_time" content="2022-09-13T21:08:49+05:30" />
+
+<meta itemprop="name" content="Pug">
+<meta itemprop="description" content="Pug is HTML templating engine. Pug compiler convert pug code into HTML code, that browser can understand.
+Pug has powerful features like conditions, loops, includes, mixins using which we can render HTML code based on user input or reference data. Pug also support JavaScript natively, hence using JavaScript expressions, we can format HTML code.
+Installation Pug can be installed using npm.
+npm install pug Overview The rendering process of Pug is pretty straightforward."><meta itemprop="datePublished" content="2022-09-13T21:08:49+05:30" />
+<meta itemprop="dateModified" content="2022-09-13T21:08:49+05:30" />
+<meta itemprop="wordCount" content="179">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pug"/>
+<meta name="twitter:description" content="Pug is HTML templating engine. Pug compiler convert pug code into HTML code, that browser can understand.
+Pug has powerful features like conditions, loops, includes, mixins using which we can render HTML code based on user input or reference data. Pug also support JavaScript natively, hence using JavaScript expressions, we can format HTML code.
+Installation Pug can be installed using npm.
+npm install pug Overview The rendering process of Pug is pretty straightforward."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/hugo_site/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Nilam&#39;s blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        BLOGS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Pug</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-09-13T21:08:49+05:30">September 13, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Pug is HTML templating engine. Pug compiler convert pug code into HTML code, that browser can understand.</p>
+<p>Pug has powerful features like conditions, loops, includes, mixins using which we can render HTML code based on user input or reference data. Pug also support JavaScript natively, hence using JavaScript expressions, we can format HTML code.</p>
+<h3 id="installation">Installation</h3>
+<p>Pug can be installed using npm.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install pug
+</span></span></code></pre></div><h3 id="overview">Overview</h3>
+<p>The rendering process of Pug is pretty straightforward. Pug compiler will compile Pug source code into Javascript function that function will take object as argument. Pug will call that function with provided data and return a string of HTML rendered with your data.</p>
+<p>template.pug</p>
+<pre tabindex="0"><code class="language-pug" data-lang="pug">  p `Hello #{name}`
+</code></pre><p>index.js</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>  <span style="color:#75715e">// Require pug library
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">pug</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;pug&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Compile the source code
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">compiledFunction</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">pug</span>.<span style="color:#a6e22e">compileFile</span>(<span style="color:#e6db74">&#39;template.pug&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Render a set of data
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">compiledFunction</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;World&#39;</span>
+</span></span><span style="display:flex;"><span>  }));
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// &#34;&lt;p&gt;Hello World&lt;/p&gt;&#34;
+</span></span></span></code></pre></div><p>renderFile() method combines compiling and rendering is as follows :</p>
+<p>index.js</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span> <span style="color:#75715e">// Require pug library
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">pug</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;pug&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Compile template.pug, and render a set of data
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">pug</span>.<span style="color:#a6e22e">renderFile</span>(<span style="color:#e6db74">&#39;template.pug&#39;</span>, {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;World&#39;</span>
+</span></span><span style="display:flex;"><span>  }));
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// &#34;&lt;p&gt;Hello World&lt;/p&gt;&#34;
+</span></span></span></code></pre></div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://nilamsjadhav.github.io/hugo_site/" >
+    &copy;  Nilam's blog 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
