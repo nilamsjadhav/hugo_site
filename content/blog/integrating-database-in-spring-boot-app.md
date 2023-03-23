@@ -17,8 +17,9 @@ Before starting with integrating database in spring boot application let's under
 ## How to integrate database to spring boot application ?
 
 let start with simple notes application having following endpoints :-
- - /notes/add-note -> to add note in app
- - /notes/get-notes -> to see all notes in stored in app
+ - /notes/add-note -> To add note in application
+ - /notes/get-notes -> To get all notes stored in application
+ - /notes/remove-notes -> To remove all notes stored in application
     
   ```kotlin
     package com.example.DatabaseExp.controller
@@ -46,7 +47,7 @@ let start with simple notes application having following endpoints :-
     }
   ```
 
-NotesService to actual call repository methods to save data in database
+NotesService to call repository methods in order to perform various operations on database eg. save, find, remove, etc
 
 ```kotlin
   package com.example.DatabaseExp.service
@@ -92,7 +93,7 @@ Note model to create structure of table and store data in database
     var createdAt: Date? = null
   )
 ```
-NoteRepository is extended from CrudRepository (can be extend from JPARepository) interface which have its abstract methods to do various operations on the database
+NoteRepository is extended from CrudRepository (can be extended from JPARepository) interface which have its abstract methods to do various operations on the database
 
 ```kotlin
   package com.example.DatabaseExp.repository
@@ -113,19 +114,24 @@ NoteRepository is extended from CrudRepository (can be extend from JPARepository
   * com.h2database:h2
 
 #### Some of the properties need to set for database integration 
-  1. spring.datasource.url
+  * spring.datasource.url
   
      This property specifies datasource path. It may be stored in file or memory. For instance, to store data in memory you can specify mem and after that storage name like this spring.datasource.url=jdbc:h2:mem:testdb.
 
   * spring.datasource.driver-class-name
 
-    This property specifies driver name to connect with database. For example org.h2.Driver
+    This property specifies driver name to connect with database. For example org.h2.Driver.
 
-  * spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+  * spring.jpa.database-platform
 
-
+    This property is used to specify database name. Value could be org.hibernate.dialect.H2Dialect for h2 database.
 
   * spring.jpa.hibernate.ddl-auto
 
-    This property specifies how the database schema will modify if there is a change in schema occured.
-    
+    This property specifies how Hibernate generates or updates the database schema.
+    Values of this property are listed below :-
+    1. create - Hibernate will drop the table and create it from scratch.
+    2. create-drop - Hibernate will create a table when application is started and drop when it shutdown
+    3. update - Hibernate updates the existing schema according to the entity mappings. It adds new tables, columns, or constraints but it does not drop the existing ones.
+    4. validate - Hibernate validates the existing schema against the entity mappings. It does not make any changes to the database schema, but it reports any inconsistencies or errors.
+    5. none - Hibernate does not perform any automatic schema generation or validation.
